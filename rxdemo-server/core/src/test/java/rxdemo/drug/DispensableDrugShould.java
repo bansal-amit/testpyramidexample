@@ -17,7 +17,7 @@ public class DispensableDrugShould {
       Assert.assertEquals(2, drug.getClassifications().size());
       Assert.assertTrue(drug.getClassifications().contains(EDrugClassification.ANALGESIC));
       Assert.assertTrue(drug.getClassifications().contains(EDrugClassification.ANTIANXIETY));
-      Assert.assertTrue(drug.getClassifications().contains(EDrugClassification.MALARIA));  // this one should fail 
+      
       
    }
 
